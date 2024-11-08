@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.WeatherContainer{
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 2);
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 75px;
+    padding: 50px;
+    margin-top: 100px;
+}
+form{
+    justify-content: center;
+    display: flex;   
+    align-items: center;
+    margin-bottom: 20px;
+}
+form input[type="text"]{
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(210, 211, 214);
+    width: 60%;
+    font-size: 20px;
+    
+}
+form input[type="submit"]{
+    padding: 20px 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: lightblue;
+    width: 30%;
+    font-size: 20px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+form input[type="submit"]:hover{
+    background-color: rgb(114, 200, 229);
+    box-shadow: 0 5px 10px -2px lightblue;
+    
+}
+.icon img{
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.temperature{
+    font-size: 35px;
+    font-weight: bold;
+}
+.description{
+    font-size: 25px;
+    margin: 10px;
+}
+.details{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.details >div{
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.222);
+    margin: 10px;
+    font-size: 25px;
+    flex: 1;
+    border-radius: 30px;
+    min-height: 30px;
+    min-width: none;
+}
